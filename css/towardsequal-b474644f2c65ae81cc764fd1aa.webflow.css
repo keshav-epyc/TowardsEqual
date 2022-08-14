@@ -858,16 +858,21 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.95);
 }
 
 .popup-form-block {
   position: absolute;
   z-index: 1;
-  width: 100%;
-  max-width: 50vw;
-  padding: 25px 30px;
+  width: 500px;
+  height: 100%;
+  max-height: 310px;
+  padding-top: 25px;
   background-color: #fff;
+}
+
+.popup-form-block.hide {
+  display: none;
 }
 
 .form-field {
@@ -1324,7 +1329,9 @@
   }
 
   .popup-form-block {
-    max-width: 90vw;
+    width: 100%;
+    max-height: 351px;
+    max-width: 95vw;
   }
 }
 
@@ -1403,17 +1410,6 @@
   align-self: start;
 }
 
-#w-node-e2745a50-bfb1-28bb-5ce4-3c8bc7a463ff-b4542404 {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
 #w-node-e2745a50-bfb1-28bb-5ce4-3c8bc7a46404-b4542404 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
@@ -1425,18 +1421,7 @@
   grid-row-end: span 1;
 }
 
-#w-node-e2745a50-bfb1-28bb-5ce4-3c8bc7a46408-b4542404 {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-e2745a50-bfb1-28bb-5ce4-3c8bc7a4640b-b4542404 {
+#w-node-e2745a50-bfb1-28bb-5ce4-3c8bc7a463ff-b4542404 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -1503,6 +1488,28 @@
 }
 
 #w-node-e2745a50-bfb1-28bb-5ce4-3c8bc7a46428-b4542404 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-e2745a50-bfb1-28bb-5ce4-3c8bc7a46408-b4542404 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-e2745a50-bfb1-28bb-5ce4-3c8bc7a4640b-b4542404 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
